@@ -22,6 +22,13 @@ namespace FirstProject.Controllers
             return View();
         }
 
+        public ActionResult Portfolio()
+        {
+            ViewBag.Message = "Your Portfolio page.";
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
