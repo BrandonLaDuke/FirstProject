@@ -36,6 +36,10 @@ nav, section {
     display: block;
 }
 
+.logo {
+    width:70px;
+}
+
 mark {
     background-color: #a6dbed;
     padding-left: 5px;
