@@ -43,6 +43,13 @@ namespace FirstProject.Controllers
             return View();
         }
 
+        public ActionResult Feedback()
+        {
+            ViewBag.Message = "Send Feedback page.";
+
+            return View();
+        }
+
         public ActionResult Blog()
         {
             ViewBag.Message = "Your Blog page.";

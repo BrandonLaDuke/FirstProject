@@ -305,6 +305,7 @@
     <Content Include="Views\Home\Portfolio.cshtml" />
     <Content Include="Views\Home\Blog.cshtml" />
     <Content Include="Views\Home\faq.cshtml" />
+    <Content Include="Views\Home\feedback.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
