@@ -2,41 +2,16 @@
     ViewBag.Title = "Contact";
 }
 
+@model FirstProject.Controllers.HomeController.BlogPost
+
 <hgroup class="title">
     <h1>@ViewBag.Title.</h1>
-    <h2>@ViewBag.Message</h2>
+    <p>@Html.Raw(ViewBag.Message)</p>
 </hgroup>
 
-<section class="contact">
-    <header>
-        <h3>Phone</h3>
-    </header>
-    <p>
-        <span class="label">Main:</span>
-        <span><a href="tel:+15022192553">502.219.2553</a></span>
-    </p>
-</section>
-
-<section class="contact">
-    <header>
-        <h3>Email</h3>
-    </header>
-    <p>
-        <span class="label">Support:</span>
-        <span><a href="mailto:brandonladuke@brandonladuke.com">brandonladuke@brandonladuke.com</a></span>
-    </p>
-    <p>
-        <span class="label">Support:</span>
-        <span><a href="mailto:brandon@brandonladuke.com">brandon@brandonladuke.com</a></span>
-    </p>
-</section>
-
-<section class="contact">
-    <header>
-        <h3>Address</h3>
-    </header>
-    <p>
-        3228 Poplar View Drive<br />
-        Louisville, KY 40216-2270
-    </p>
-</section>
+<div>
+    <div class="text">@Model.text</div>
+    @Model.id
+    @Model.userid
+    @Model.date
+</div>
